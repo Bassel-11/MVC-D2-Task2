@@ -1,0 +1,11 @@
+﻿@{
+    ViewBag.Title = "Department Details";
+}
+
+<div class="card" style="width: 18rem;">
+    <div class="card-body">
+        <h5 class="card-title">Department Name: @Model.Name</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Department Id: @Model.Id</h6>
+        <a href="@Url.Action("GetAll", "Department")" class="btn btn-primary mt-3">Back</a>
+    </div>
+</div>
